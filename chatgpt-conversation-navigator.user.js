@@ -5,6 +5,7 @@
 // @description  为 ChatGPT 页面生成包含用户提问和 AI 回答的对话导航，支持搜索和点击跳转。
 // @author       EricTing
 // @date         2026-11-08
+// @license      MIT
 // @homepageURL  https://github.com/EricTing/chatgpt-conversation-navigator
 // @downloadURL  https://raw.githubusercontent.com/EricTing/chatgpt-conversation-navigator/main/chatgpt-conversation-navigator.user.js
 // @updateURL    https://raw.githubusercontent.com/EricTing/chatgpt-conversation-navigator/main/chatgpt-conversation-navigator.user.js
