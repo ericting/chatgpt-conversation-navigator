@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">ChatGPT 对话导航示例</title>
+  <desc id="desc">ChatGPT 页面右侧显示包含提问和回答缩略的对话导航面板，并展示折叠正文后的列表。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f8fa"/>
+      <stop offset="1" stop-color="#e8edf2"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#101828" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1280" height="58" fill="#202123"/>
+  <circle cx="30" cy="29" r="11" fill="#10a37f"/>
+  <text x="56" y="36" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="20" fill="#fff" font-weight="600">ChatGPT</text>
+  <rect x="48" y="102" width="740" height="548" rx="16" fill="#fff" stroke="#d8dde5"/>
+  <text x="80" y="145" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="16" fill="#667085">对话正文（超过 5 轮后可折叠）</text>
+  <rect x="80" y="176" width="650" height="68" rx="12" fill="#f2f4f7"/>
+  <text x="102" y="203" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" fill="#10a37f" font-weight="700">问</text>
+  <text x="130" y="203" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" fill="#344054">如何给长 ChatGPT 对话做一个导航？</text>
+  <text x="130" y="226" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" fill="#98a2b3">点击右侧缩略可跳到对应问答。</text>
+  <rect x="80" y="270" width="650" height="108" rx="12" fill="#f8fafc"/>
+  <text x="102" y="299" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" fill="#6366f1" font-weight="700">答</text>
+  <text x="130" y="299" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" fill="#344054">可以提取每轮的用户问题和 AI 回答，</text>
+  <text x="130" y="324" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" fill="#344054">并在侧边栏中提供搜索和跳转。</text>
+  <text x="130" y="353" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" fill="#98a2b3">正文折叠后只保留右侧问答缩略列表。</text>
+  <rect x="830" y="82" width="390" height="584" rx="16" fill="#fff" stroke="#d0d5dd" filter="url(#shadow)"/>
+  <text x="858" y="123" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="17" fill="#1d2939" font-weight="700">对话导航</text>
+  <text x="1080" y="123" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" fill="#98a2b3">6/6</text>
+  <rect x="1162" y="103" width="26" height="24" rx="6" fill="#f2f4f7"/>
+  <text x="1170" y="120" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" fill="#667085">−</text>
+  <rect x="858" y="143" width="334" height="34" rx="8" fill="#f2f4f7"/>
+  <text x="874" y="165" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12" fill="#98a2b3">搜索提问或 AI 回答…</text>
+  <rect x="858" y="188" width="82" height="27" rx="6" fill="#fff" stroke="#10a37f"/>
+  <text x="871" y="206" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11" fill="#10a37f">展开正文</text>
+  <text x="950" y="206" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10" fill="#98a2b3">超过 5 轮自动缩略</text>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+    <rect x="858" y="230" width="334" height="78" rx="10" fill="#fff" stroke="#e4e7ec"/>
+    <text x="873" y="251" font-size="11" fill="#98a2b3" font-weight="600">第 1 轮</text>
+    <text x="873" y="274" font-size="11" fill="#10a37f" font-weight="700">问</text>
+    <text x="898" y="274" font-size="12" fill="#344054">如何给长 ChatGPT 对话做导航？</text>
+    <text x="873" y="296" font-size="11" fill="#6366f1" font-weight="700">答</text>
+    <text x="898" y="296" font-size="12" fill="#344054">提取问答并提供搜索、跳转。</text>
+    <rect x="858" y="318" width="334" height="78" rx="10" fill="#fff" stroke="#e4e7ec"/>
+    <text x="873" y="339" font-size="11" fill="#98a2b3" font-weight="600">第 2 轮</text>
+    <text x="873" y="362" font-size="11" fill="#10a37f" font-weight="700">问</text>
+    <text x="898" y="362" font-size="12" fill="#344054">能不能超过 5 轮时自动折叠？</text>
+    <text x="873" y="384" font-size="11" fill="#6366f1" font-weight="700">答</text>
+    <text x="898" y="384" font-size="12" fill="#344054">可以，保留问答缩略列表。</text>
+    <rect x="858" y="406" width="334" height="78" rx="10" fill="#fff" stroke="#e4e7ec"/>
+    <text x="873" y="427" font-size="11" fill="#98a2b3" font-weight="600">第 3 轮</text>
+    <text x="873" y="450" font-size="11" fill="#10a37f" font-weight="700">问</text>
+    <text x="898" y="450" font-size="12" fill="#344054">点击缩略后可以展开吗？</text>
+    <text x="873" y="472" font-size="11" fill="#6366f1" font-weight="700">答</text>
+    <text x="898" y="472" font-size="12" fill="#344054">点击后自动展开并定位。</text>
+  </g>
+  <text x="858" y="528" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11" fill="#98a2b3">问答缩略 · 搜索 · 点击跳转 · 一键折叠/展开</text>
+  <circle cx="1170" cy="608" r="20" fill="#10a37f"/>
+  <text x="1161" y="615" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="16" fill="#fff">☰</text>
+</svg>
